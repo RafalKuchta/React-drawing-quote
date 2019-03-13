@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zadanie 1 React</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&amp;subset=latin-ext" rel="stylesheet">
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <style>
+
+    html {
+      background-color: rgb(225, 225, 225);
+      }
+
+    div {
+      /* background-image: url("src/cytat.png");
+      background-size:contain;
+      background-repeat: no-repeat; */
+      width: 80%;
+      margin: 30px auto;
+      z-index: 2;
+    }
+
+  .quo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+  }
+  
+  h1{
+    font-family: 'Dosis', sans-serif;
+  }
+
+  button {
+    background-image: url("https://onelittlesmile.pl/cytaty-motywujace/img/bg_btn-next.svg");
+    height: 50px;
+    width: 130px;
+    color: white;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+  }
+
+  </style>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" src="app.js">
+ 
+    </script>
+
+  </body>
+</html>
